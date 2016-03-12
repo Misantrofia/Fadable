@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Fadeable
 //
-//  Created by Alexandru schwartz on 03/12/2016.
-//  Copyright (c) 2016 Alexandru schwartz. All rights reserved.
+//  Created by Andrew Bancroft on 12/29/2015.
+//  Copyright (c) 2015 Andrew Bancroft. All rights reserved.
 //
 
 import UIKit

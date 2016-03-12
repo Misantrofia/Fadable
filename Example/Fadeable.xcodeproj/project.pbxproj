@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24894B3E6CBE1B4E1EAF4AF1 /* Pods_Fadeable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB820F5A39970C8E3123A77A /* Pods_Fadeable_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9731FE13BD5EF9B8A108E91E /* Pods_Fadeable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDC1D3BFC5724D94D46DBA5 /* Pods_Fadeable_Example.framework */; };
+		D28B9C24927C4EA7A89F9BDD /* Pods_Fadeable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758741E3C34FED86FCE7E5C5 /* Pods_Fadeable_Tests.framework */; };
+		E27A8C917D97E18DE925BE89 /* Pods_Fadeable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32826255FA7476500738A20E /* Pods_Fadeable_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BDC1D3BFC5724D94D46DBA5 /* Pods_Fadeable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fadeable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45E41EB03766CD26E1414E5D /* Pods-Fadeable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		028F9173B29E0131AD012DAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32826255FA7476500738A20E /* Pods_Fadeable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fadeable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Fadeable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fadeable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* Fadeable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fadeable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		C904518C5F91752FFB8DB255 /* Pods-Fadeable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C9E9007DC61DC7BC54224094 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CD4EAF7C0728B6AE5E6392DB /* Pods-Fadeable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CEF65F6AC61B3D2BD8CA4D95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E445B4151A38DFC09B0A4844 /* Pods-Fadeable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB820F5A39970C8E3123A77A /* Pods_Fadeable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fadeable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD50F076BE33D18A1A75E2DF /* Fadeable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fadeable.podspec; path = ../Fadeable.podspec; sourceTree = "<group>"; };
+		72CF3BD26C631851A4611748 /* Fadeable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Fadeable.podspec; path = ../Fadeable.podspec; sourceTree = "<group>"; };
+		758741E3C34FED86FCE7E5C5 /* Pods_Fadeable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fadeable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA350C2ECC81AE573E45B81A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BA2596307F4BE4C863825A22 /* Pods-Fadeable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC2EC5E2955D8398E9E2343C /* Pods-Fadeable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BF4C9D3809749819FF4DC9 /* Pods-Fadeable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F237CE3DF7A91A56B572BBCF /* Pods-Fadeable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fadeable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9731FE13BD5EF9B8A108E91E /* Pods_Fadeable_Example.framework in Frameworks */,
+				E27A8C917D97E18DE925BE89 /* Pods_Fadeable_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24894B3E6CBE1B4E1EAF4AF1 /* Pods_Fadeable_Tests.framework in Frameworks */,
+				D28B9C24927C4EA7A89F9BDD /* Pods_Fadeable_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		579CB7B30CC69E758BFD1D1E /* Pods */ = {
+		25315CD5AA070C0DB3DD5FE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				45E41EB03766CD26E1414E5D /* Pods-Fadeable_Example.debug.xcconfig */,
-				C904518C5F91752FFB8DB255 /* Pods-Fadeable_Example.release.xcconfig */,
-				E445B4151A38DFC09B0A4844 /* Pods-Fadeable_Tests.debug.xcconfig */,
-				CD4EAF7C0728B6AE5E6392DB /* Pods-Fadeable_Tests.release.xcconfig */,
+				32826255FA7476500738A20E /* Pods_Fadeable_Example.framework */,
+				758741E3C34FED86FCE7E5C5 /* Pods_Fadeable_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521A21292B8A0085D0B032A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC2EC5E2955D8398E9E2343C /* Pods-Fadeable_Example.debug.xcconfig */,
+				D8BF4C9D3809749819FF4DC9 /* Pods-Fadeable_Example.release.xcconfig */,
+				F237CE3DF7A91A56B572BBCF /* Pods-Fadeable_Tests.debug.xcconfig */,
+				BA2596307F4BE4C863825A22 /* Pods-Fadeable_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -87,8 +96,8 @@
 				607FACD21AFB9204008FA782 /* Example for Fadeable */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				579CB7B30CC69E758BFD1D1E /* Pods */,
-				CA58B6FF5E553F8DD539DA79 /* Frameworks */,
+				521A21292B8A0085D0B032A6 /* Pods */,
+				25315CD5AA070C0DB3DD5FE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,20 +152,11 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FD50F076BE33D18A1A75E2DF /* Fadeable.podspec */,
-				C9E9007DC61DC7BC54224094 /* README.md */,
-				CEF65F6AC61B3D2BD8CA4D95 /* LICENSE */,
+				72CF3BD26C631851A4611748 /* Fadeable.podspec */,
+				AA350C2ECC81AE573E45B81A /* README.md */,
+				028F9173B29E0131AD012DAB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		CA58B6FF5E553F8DD539DA79 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2BDC1D3BFC5724D94D46DBA5 /* Pods_Fadeable_Example.framework */,
-				FB820F5A39970C8E3123A77A /* Pods_Fadeable_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Fadeable_Example" */;
 			buildPhases = (
-				41173AF8A72D1633B59A1785 /* Check Pods Manifest.lock */,
+				E5206A736C4F4E011340B3C8 /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				DF229CF39401A249655C8032 /* Embed Pods Frameworks */,
-				D9CAF4CD432B909444D8C349 /* Copy Pods Resources */,
+				3F6AAC8CF671A1E38A8DE32C /* Embed Pods Frameworks */,
+				A3B1611AEB5648557D4DC397 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Fadeable_Tests" */;
 			buildPhases = (
-				AB23EC4CFCC37BB329F93220 /* Check Pods Manifest.lock */,
+				1DB4A15956AAB427973194BF /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				A39A5149BEF73AAB73890583 /* Embed Pods Frameworks */,
-				4EB1489A8AA2116B396DE167 /* Copy Pods Resources */,
+				30A772823A2797AFF4200218 /* Embed Pods Frameworks */,
+				9B3674FE38513F113E70F4A4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41173AF8A72D1633B59A1785 /* Check Pods Manifest.lock */ = {
+		1DB4A15956AAB427973194BF /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,22 +277,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4EB1489A8AA2116B396DE167 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A39A5149BEF73AAB73890583 /* Embed Pods Frameworks */ = {
+		30A772823A2797AFF4200218 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,22 +292,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB23EC4CFCC37BB329F93220 /* Check Pods Manifest.lock */ = {
+		3F6AAC8CF671A1E38A8DE32C /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9CAF4CD432B909444D8C349 /* Copy Pods Resources */ = {
+		9B3674FE38513F113E70F4A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fadeable_Tests/Pods-Fadeable_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B1611AEB5648557D4DC397 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,19 +337,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF229CF39401A249655C8032 /* Embed Pods Frameworks */ = {
+		E5206A736C4F4E011340B3C8 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fadeable_Example/Pods-Fadeable_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -486,7 +486,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E41EB03766CD26E1414E5D /* Pods-Fadeable_Example.debug.xcconfig */;
+			baseConfigurationReference = CC2EC5E2955D8398E9E2343C /* Pods-Fadeable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fadeable/Info.plist;
@@ -499,7 +499,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C904518C5F91752FFB8DB255 /* Pods-Fadeable_Example.release.xcconfig */;
+			baseConfigurationReference = D8BF4C9D3809749819FF4DC9 /* Pods-Fadeable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fadeable/Info.plist;
@@ -512,7 +512,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E445B4151A38DFC09B0A4844 /* Pods-Fadeable_Tests.debug.xcconfig */;
+			baseConfigurationReference = F237CE3DF7A91A56B572BBCF /* Pods-Fadeable_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -533,7 +533,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD4EAF7C0728B6AE5E6392DB /* Pods-Fadeable_Tests.release.xcconfig */;
+			baseConfigurationReference = BA2596307F4BE4C863825A22 /* Pods-Fadeable_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
